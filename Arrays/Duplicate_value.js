@@ -26,7 +26,7 @@ function duplicates(a, n){
     for(let keys in obj)
     {
         // If any value of key occurence more than 1 then push in arr
-        if(obj[keys]!==1)
+        if(obj[keys]>1)
         {
             arr.push(keys);
         }
