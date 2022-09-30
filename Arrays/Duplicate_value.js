@@ -21,6 +21,9 @@ function duplicates(a, n){
             obj[a[i]]+=1;
         }
     }
+
+    // Objects in javascript automatically sort the keys because they stored as a string
+    // console.log(obj); { '1': 3, '2': 2, '3': 1, '5': 2 }
         
     let arr=[];
     for(let keys in obj)
@@ -37,5 +40,5 @@ function duplicates(a, n){
         return [-1]; // Return -1 if nothing found
     }
         
-    return arr;
+    return arr; // 1 2 5 array is automatically sort because of object
 }
