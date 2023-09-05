@@ -1,5 +1,12 @@
-//To make new object
-let obj1=new Object();
+//Object literal - comma-separated set of name-value pairs wrapped in curly braces
+var object = {
+    name: "Sudheer",
+    age: 34
+};
+
+
+//To make new object by built-in constructor
+let obj1= Object(); // new Object()
 obj1.name='jai'
 console.log(obj1) // { name: 'jai' }
 
