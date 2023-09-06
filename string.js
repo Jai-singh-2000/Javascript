@@ -40,3 +40,30 @@ var value=country.slice(2) // 1st arguement is starting index, if only 1 argueme
 console.log(value) // utan
 
 
+// Slice - extract section of string and returns it as a new string
+let place="France";
+var value=country.slice(1,4) // 1st is starting, 2nd is ending but it is not included, only slice 1,2,3 
+console.log(value) // ran
+
+
+// Convert anything to string
+let num=4;
+num= num+" "
+console.log(typeof num) // string
+
+let bool=true;
+bool=String(bool)
+console.log(typeof bool)//string
+
+
+//String concatenation
+let one="java"
+let two="script"
+let combine=one+two;
+console.log(combine) //javascript
+
+
+//Template string
+let person="healthy"
+let about=`I am ${person} human`
+console.log(about) // I am healthy human
